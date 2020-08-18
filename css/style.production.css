@@ -12,19 +12,8 @@ font-family: 'Comfortaa', cursive;
 font-family: 'Satisfy', cursive;
 */
 
-:root {
-  --primary-color: #357b70;
-  --secondary-color: #b2b2d6;
-  --tertiary-color: #4f4a52;
-}
-
-:root {
-  --primary-font: 'Comfortaa', cursive;
-  --secondary-font: 'Satisfy', cursive;
-}
-
 body {
-font-family: var(--primary-font);
+font-family: 'Comfortaa', cursive;
 font-weight: 500;
 font-size: 16px;
 line-height: 2;
@@ -33,16 +22,16 @@ text-align: center;
 }
 
 h1 {
-  font-family: var(--secondary-font);
+  font-family: 'Satisfy', cursive;
   font-weight: 400;
   font-size: 40px;
   line-height: 1.6;
-  color: var(--tertiary-color);
+  color: #4f4a52;
   text-align: center;
 }
 
 a {
-  color: var(--primary-color);
+  color: #357b70;
 }
 
 a:visited {
@@ -57,12 +46,26 @@ a:active {
   color: #489c79;
 }
 
-.button,
+.button {
+  border: none;
+  display: inline-block;
+  font-family: inherit;
+  background-color: #357b70;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 3px;
+  border-bottom: 2px solid rgba(0,0,0,0.3);
+  transition: 0.2s opacity;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
 button {
   border: none;
   display: inline-block;
   font-family: inherit;
-  background-color: var(--primary-color);
+  background-color: #357b70;
   color: white;
   text-decoration: none;
   padding: 20px;
@@ -160,7 +163,7 @@ button:focus,
 }
 
 .grid__item {
-  background-color: var(--secondary-color);
+  background-color: #b2b2d6;
   padding: 10px;
   width: auto;
 }
@@ -246,11 +249,11 @@ button:focus,
   text-align: center;
 }
 #this-is-me {
-  font-family: var(--secondary-font);
+  font-family: 'Satisfy', cursive;
   font-weight: 300;
   font-size: 20px;
   line-height: 1.6;
-  color: var(--primary-color);
+  color: #357b70;
 }
 
 #my-things {
@@ -265,13 +268,13 @@ button:focus,
 }
 
 .about-grid {
-  background-color: var(--secondary-color);
+  background-color: #b2b2d6;
 }
 
 .thead {
-  font-family: var(--secondary-font);
+  font-family: 'Satisfy', cursive;
   font-weight: 300;
   font-size: 20px;
   line-height: 1.6;
-  color: var(--primary-color);
+  color: #357b70;
 }

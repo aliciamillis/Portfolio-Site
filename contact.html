@@ -1,62 +1,68 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <link rel="icon" href="img/favicon.ico">
-      <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
-      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-      <link rel="stylesheet" type="text/css" href="css/styles.css">
-      <title> Alicia </title>
-      <div class="profile">
-        <header class="page-header">
-        <!-- Add your logo here -->
-          <img src="img/aliciamillislogo.png" alt="Alicia Millis logo" width="200px" height="200px" class="page-header__item">
-          <nav class="main-navigation page-header__item">
-            <ul role="menubar" class="navigation-list">
-              <li role="presentation">
-                <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active"> Home</a>
-              </li>
-              <li role="presentation">
-                <a href="about.html" role="menuitem" class="navigation-list__item"> About</a>
-              </li>
-              <li role="presentation">
-                <a href="contact.html" role="menuitem" class="navigation-list__item"> Contact</a>
-              </li>
-                <li role="presentation">
-                  <a href="work.html" role="menuitem" class="navigation-list__item"> Work</a>
-              </li>
-          </ul>
-        </nav>
-      </header>
-    </head>
+<head>
+  <meta charset="utf-8">
+  <title>Alicia Millis - Portfolio</title>
+  <link rel="icon" href="img/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.production.css">
+</head>
 
 <body>
-<div>
-  Alicia Millis <br>
-  Calgary Alberta <br>
-  Canada <br>
-  <br>
-  Tel <a href="1-403-701-6251"> 1-403-701-6251</a> <br>
-  Skype <a href="skype:aliciamillis"> aliciamillis </a> <br>
-  <a href="mailto:alicia.millis@gmail.com"> alicia.millis@gmail.com</a> <br>
-  <!-- Contact Me Button-->
-  <a href="<a href="mailto:alicia.millis@gmail.com> Contact Me </a>
+  <header class="page-header">
+    <div class="profile">
+
+    <!-- Add your logo here -->
+      <img src="img/aliciamillislogo.png" alt="Alicia Millis logo" width="200px" height="200px" class="page-header__item">
+      <nav class="main-navigation page-header__item">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+            <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active"> Home</a>
+          </li>
+          <li role="presentation">
+            <a href="about.html" role="menuitem" class="navigation-list__item"> About</a>
+          </li>
+          <li role="presentation">
+            <a href="contact.html" role="menuitem" class="navigation-list__item"> Contact</a>
+          </li>
+            <li role="presentation">
+              <a href="work.html" role="menuitem" class="navigation-list__item"> Work</a>
+          </li>
+      </ul>
+    </nav>
+  </header>
 </div>
 
-<div>
-  <form action="" method"post" id="contact-form">
-      <label class="standard-label" for="contact-email">*Email: </label>
-      <input type="email" id="contact-email" required>
-
-      <label class="standard-label" for="contact-tel">Telephone: </label>
-      <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="contact-tel">
-
-      <label class="standard-label">*Message max 240 characters: </label>
-      <textarea maxlength="240" required></textarea>
-
-    </form>
+<body>
+  <div class="contact">
+    Alicia Millis <br>
+    Calgary Alberta <br>
+    Canada <br>
+    <br>
+    Tel <a href="1-403-701-6251"> 1-403-701-6251</a> <br>
+    Skype <a href="skype:aliciamillis"> aliciamillis </a> <br>
+    <a href="mailto:alicia.millis@gmail.com"> alicia.millis@gmail.com</a> <br>
+    <!-- Contact Me Button-->
+    <a href="<a href="mailto:alicia.millis@gmail.com> Contact Me </a>
   </div>
-  <script src="js/tota11y.min.js"> </script>
+
+  <div>
+    <form action="" method"post" id="contact-form">
+        <label class="standard-label" for="contact-email">*Email: </label>
+        <input type="email" id="contact-email" required>
+
+        <label class="standard-label" for="contact-tel">Telephone: </label>
+        <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="contact-tel">
+
+        <label class="standard-label">*Message: </label>
+        <textarea maxlength="240" required></textarea>
+
+      </form>
+    </div>
+
+    <script src="js/tota11y.min.js"> </script>
 </body>
 </html>
