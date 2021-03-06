@@ -4,8 +4,6 @@ Colors used
 background #E6E6FA
 */
 
-
-
 /*
 * Prefixed by https://autoprefixer.github.io
 * PostCSS: v7.0.29,
@@ -14,12 +12,12 @@ background #E6E6FA
 */
 
 body {
-font-family: 'Comfortaa', cursive;
-font-weight: 500;
-font-size: 16px;
-line-height: 2;
-background-color: #E6E6FA;
-text-align: center;
+  font-family: 'Comfortaa', cursive;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 2;
+  background-color: #e6e6fa;
+  text-align: center;
 }
 
 h1 {
@@ -39,7 +37,8 @@ a:visited {
   color: #05676e;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   text-decoration: none;
 }
 
@@ -56,7 +55,7 @@ a:active {
   text-decoration: none;
   padding: 20px;
   border-radius: 3px;
-  border-bottom: 2px solid rgba(0,0,0,0.3);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   transition: 0.2s opacity;
   margin-bottom: 10px;
   text-align: center;
@@ -71,7 +70,7 @@ button {
   text-decoration: none;
   padding: 20px;
   border-radius: 3px;
-  border-bottom: 2px solid rgba(0,0,0,0.3);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   transition: 0.2s opacity;
   margin-bottom: 10px;
   text-align: center;
@@ -90,12 +89,15 @@ button:focus,
   color: white;
 }
 
-
 .profile__portrait {
   float: left;
   width: 250px;
   margin-right: 40px;
   border-radius: 50%;
+}
+.project_pic {
+  display: inline-block;
+  width: 33%;
 }
 
 .page-footer {
@@ -116,21 +118,18 @@ button:focus,
   display: flex;
   flex-direction: column;
   text-align: center;
-
 }
 
 .page-header {
   display: flex;
   width: 100%;
   padding: 20px;
-
 }
 
 .page-header__item {
   flex: 0 1 200px;
   border-bottom: 100px;
   float: left;
-
 }
 
 .page-header__item:last-child {
@@ -147,20 +146,20 @@ button:focus,
   margin-left: 15px;
 }
 
-/* start grid fallback*/
+/* start grid fallback */
 .grid__item {
   display: inline-block;
   width: 33%;
 }
-/* start grid fallback*/
 
-/* Styling CSS grid*/
+/* start grid fallback */
+
+/* Styling CSS grid */
 
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
-
 }
 
 .grid__item {
@@ -181,7 +180,7 @@ button:focus,
   }
 }
 
-@media all and (min-width: 500px) and (max-width: 750px){
+@media all and (min-width: 500px) and (max-width: 750px) {
   .grid,
   .grid2 {
     grid-template-columns: 1fr 1fr 1fr;
@@ -193,7 +192,8 @@ button:focus,
   .grid2 {
     grid-gap: 10px;
   }
-  .grid__item:last-child {
+
+  grid__item:last-child {
     grid-column: auto / auto;
     grid-row: auto / auto;
   }
