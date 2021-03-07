@@ -95,10 +95,6 @@ button:focus,
   margin-right: 40px;
   border-radius: 50%;
 }
-.project_pic {
-  display: inline-block;
-  width: 33%;
-}
 
 .page-footer {
   clear: both;
