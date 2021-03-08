@@ -30,7 +30,7 @@ h1 {
 }
 
 a {
-  color: #357b70;
+  color: #080808;
 }
 
 a:visited {
@@ -46,22 +46,8 @@ a:active {
   color: #489c79;
 }
 
+button,
 .button {
-  border: none;
-  display: inline-block;
-  font-family: inherit;
-  background-color: #357b70;
-  color: white;
-  text-decoration: none;
-  padding: 20px;
-  border-radius: 3px;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
-  transition: 0.2s opacity;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-button {
   border: none;
   display: inline-block;
   font-family: inherit;
@@ -198,52 +184,6 @@ button:focus,
     grid-column: auto / auto;
     grid-row: auto / auto;
   }
-}
-
-.city {
-  text-align: center;
-  width: 80%;
-  margin: 10px;
-  flex-basis: 200px;
-  flex-shrink: 1;
-  flex-grow: 1;
-  z-index: 1;
-}
-
-.cloud {
-  animation: 4s color-change infinite alternate linear;
-  animation: 10s cloud-move infinite alternate linear;
-  position: absolute;
-  bottom: 120px;
-  left: 500px;
-  z-index: 2;
-}
-
-@keyframes color-change {
-  0% {
-    fill: #edc655;
-  }
-  50% {
-    fill: #fcffad;
-  }
-  100% {
-    fill: #f76414;
-  }
-}
-@keyframes cloud-move {
-  from {
-    transform: translate(0, 150px);
-  }
-  to {
-    transform: translate(200px, 50px);
-  }
-}
-
-
-.about {
-  max-width: 700px;
-  margin: 0 auto;
-  text-align: center;
 }
 
 .contact {
