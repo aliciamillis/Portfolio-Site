@@ -288,3 +288,9 @@ button:focus,
 .flex-container {
   display: flex;
 }
+
+.standard-label {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
