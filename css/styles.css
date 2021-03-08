@@ -96,8 +96,9 @@ button:focus,
   border-radius: 50%;
 }
 .project_pic {
+  flex: 0 1 200px;
+  border-bottom: 100px;
   float: left;
-  width: 250px;
 }
 
 .page-footer {
