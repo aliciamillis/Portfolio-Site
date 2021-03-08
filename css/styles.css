@@ -29,12 +29,20 @@ h1 {
   text-align: center;
 }
 
-a {
-  color: #080808;
-}
-
-a:visited {
-  color: #030303;
+a:link,
+a:visited  {
+  border: none;
+  display: inline-block;
+  font-family: inherit;
+  background-color: #357b70;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 3px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  transition: 0.2s opacity;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 a:hover,
