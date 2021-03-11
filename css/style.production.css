@@ -3,7 +3,7 @@ Colors used
 
 background #E6E6FA
 heading color: #4f4a52;
-button color: #357b70;
+button color:  #a0a3a3;
 grid background-color: #b2b2d6;
 secondary heading color: #357b70;
 
@@ -36,7 +36,7 @@ a {
 }
 
 a:visited {
-  color: white;
+  color: #357b70;
 }
 
 a:hover, a:focus {
@@ -51,7 +51,7 @@ a:active {
   border: none;
   display: inline-block;
   font-family: inherit;
-  background-color: #357b70;
+  background-color: #a0a3a3;
   color: white;
   text-decoration: none;
   padding: 20px;
@@ -67,7 +67,7 @@ button {
   border: none;
   display: inline-block;
   font-family: inherit;
-  background-color: #357b70;
+  background-color:  #a0a3a3;
   color: white;
   text-decoration: none;
   padding: 20px;
